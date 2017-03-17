@@ -41,18 +41,23 @@ export default class App extends Component {
     return (
       <div className="div-container">
         <div className="fullscreen blue-grey darken-3">
-          <div className="center-this fullscreen">
+          <div className="center fullscreen">
             <h1>Eitan Alkaslassy</h1>
+            <div id="button-down">
+              <Link activeClass="active" to="about" spy={true} smooth={true} duration={500}>
+                  <a className="btn-floating btn-large waves-effect waves-light light-blue lighten-2" >
+                    <i className="material-icons arrow-down">keyboard_arrow_down</i>
+                  </a>
+              </Link>
+            </div>
           </div>
-          <Link activeClass="active" to="about" spy={true} smooth={true} duration={500}>
-              <a className="btn-floating btn-large waves-effect waves-light light-blue lighten-2" id="button-down">
-              <i className="material-icons arrow-down">keyboard_arrow_down</i>
-              </a>
-          </Link>
+          <div className="center">
+
+          </div>
         </div>
         <Element name="about" className="fullscreen">
           <div className="fullscreen" id="about">
-            test
+
           </div>
         </Element>
       </div>
