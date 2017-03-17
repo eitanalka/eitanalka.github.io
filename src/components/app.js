@@ -39,7 +39,7 @@ export default class App extends Component {
 
   render() {
     return (
-      <div className="div-container">
+      <div>
         <div className="fullscreen blue-grey darken-3">
           <div className="center fullscreen">
             <h1>Eitan Alkaslassy</h1>
@@ -51,11 +51,8 @@ export default class App extends Component {
               </Link>
             </div>
           </div>
-          <div className="center">
-
-          </div>
         </div>
-        <Element name="about" className="fullscreen">
+        <Element name="about">
           <div className="fullscreen" id="about">
 
           </div>
