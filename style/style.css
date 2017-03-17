@@ -1,17 +1,30 @@
 html, body{
   height: 100%;
   width: 100%;
+  font-size:16px;
 }
 
 h1 {
   color: #4fc3f7;
   font-weight: 200 !important;
-  font-size: 150px !important;
+  font-size: 300% !important;
+  line-height: 1.2;
   position: absolute;
-  margin:0 !important;
-  top: 45%;
+  margin:0 auto !important;
+
   transform: translateY(-50%);
-  transform: translateX(15%);
+  transform: translateX(7.5%);
+}
+@media(min-width:900px){
+  h1{
+    color: #4fc3f7;
+    font-weight: 200 !important;
+    font-size: 850% !important;
+    line-height: 1.2;
+    position: absolute;
+    margin:0 !important;
+    text-align: center;
+  }
 }
 
 .fullscreen {
@@ -23,8 +36,13 @@ h1 {
 
 }
 
+.center-this{
+  vertical-align: middle;
+}
+
 .container{
   top: 0;
+  left: 0;
   height: 100%;
   width: 100%;
 }

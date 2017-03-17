@@ -41,7 +41,9 @@ export default class App extends Component {
     return (
       <div className="div-container">
         <div className="fullscreen blue-grey darken-3">
-          <h1>Eitan Alkaslassy</h1>
+          <div className="center-this fullscreen">
+            <h1>Eitan Alkaslassy</h1>
+          </div>
           <Link activeClass="active" to="about" spy={true} smooth={true} duration={500}>
               <a className="btn-floating btn-large waves-effect waves-light light-blue lighten-2" id="button-down">
               <i className="material-icons arrow-down">keyboard_arrow_down</i>
