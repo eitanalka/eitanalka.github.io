@@ -3,14 +3,12 @@ html, body{
 }
 
 h1 {
-  position:absolute;
   color: #4fc3f7;
   font-weight: 200 !important;
   font-size: 430% !important;
 }
 @media(min-width:900px){
   h1{
-    position:absolute;
     color: #4fc3f7;
     font-weight: 200 !important;
     font-size: 850% !important;
@@ -50,6 +48,5 @@ h1 {
 }
 
 #button-down {
-  margin-top: auto;
-  margin-bottom: 1%;
+  
 }
