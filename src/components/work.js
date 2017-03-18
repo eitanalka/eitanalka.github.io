@@ -4,7 +4,7 @@ const Work = () => {
   return (
     <div className=" blue-grey lighten-3">
       <div className="flex-column-center">
-        <h3>{`<Work/>`}</h3>
+        <h3>My Work</h3>
         <div className="flex-row-center">
           <div className="fill-space">
             <h4>Random Quote Generator</h4>

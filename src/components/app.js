@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 import Scroll from 'react-scroll';
 import Work from './work';
+import Footer from './footer';
 
 var Link       = Scroll.Link;
 var DirectLink = Scroll.DirectLink;
@@ -57,6 +58,7 @@ export default class App extends Component {
         <Element name="about">
             <Work/>
         </Element>
+        <Footer />
       </div>
     )
   }
