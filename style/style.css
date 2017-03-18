@@ -9,10 +9,7 @@ h1 {
 }
 @media(min-width:900px){
   h1{
-    color: #4fc3f7;
-    font-weight: 200 !important;
     font-size: 850% !important;
-    line-height: 1.2;
   }
 }
 
@@ -24,8 +21,6 @@ h2 {
 }
 @media(min-width:900px){
   h2{
-    color: #4fc3f7;
-    font-weight: 200 !important;
     font-size: 400% !important;
   }
 }
@@ -33,16 +28,42 @@ h2 {
 h3 {
   color: #37474f;
   font-weight: 300 !important;
-  font-size: 200% !important;
-  margin-top: 2.5% !important;
+  font-size: 250% !important;
+  margin-top: 5% !important;
 }
 @media(min-width:900px){
   h3{
-    color: #37474f ;
-    font-weight: 300 !important;
     font-size: 400% !important;
   }
 }
+
+h4 {
+  color: #37474f;
+  font-weight: 300 !important;
+  font-size: 180% !important;
+  margin-top: 5% !important;
+  margin-bottom: auto !important;
+  text-align: center;
+}
+@media(min-width:900px){
+  h4{
+    color: #37474f ;
+    font-weight: 300 !important;
+    font-size: 220% !important;
+  }
+}
+
+.fill-space {
+  display: flex;
+  flex-direction: column;
+  width: 90vw;
+}
+@media(min-width:900px){
+  .fill-space {
+    width: 40vw;
+  }
+}
+
 
 .flex-column-center{
   display: flex;
@@ -53,7 +74,10 @@ h3 {
 .flex-row-center{
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-around;
+  width: 90vw;
+  flex-wrap: wrap;
+  align-items: stretch;
 }
 
 .fullscreen {
