@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 import Scroll from 'react-scroll';
+import Work from './work';
 
 var Link       = Scroll.Link;
 var DirectLink = Scroll.DirectLink;
@@ -43,6 +44,7 @@ export default class App extends Component {
         <div className="fullscreen blue-grey darken-3">
           <div className="center fullscreen">
             <h1>Eitan Alkaslassy</h1>
+            <h2>HTML|CSS|Javascript|React.js</h2>
             <div id="button-down">
               <Link activeClass="active" to="about" spy={true} smooth={true} duration={500}>
                   <a className="btn-floating btn-large waves-effect waves-light light-blue lighten-2" >
@@ -53,9 +55,7 @@ export default class App extends Component {
           </div>
         </div>
         <Element name="about">
-          <div className="fullscreen" id="about">
-
-          </div>
+            <Work/>
         </Element>
       </div>
     )
